@@ -4,7 +4,7 @@ import json
 
 # Page configuration
 st.set_page_config(
-    page_title="Your Name | Portfolio",
+    page_title="Ade Sonowo | Portfolio",
     page_icon="👨‍💻",
     layout="wide"
 )
@@ -23,11 +23,11 @@ with open("projects.json") as f:
 # --- Hero Section ---
 col1, col2 = st.columns([2, 1])
 with col1:
-    st.title("Hi, I'm [Your Name] 👋")
-    st.subheader("Robotics Engineer | AI Developer | Educator")
+    st.title("Hi, I'm Ade Sonowo 👋")
+    st.subheader("Senior Data Engineer")
     st.write("""
-    Passionate about building intelligent systems and teaching the next generation of engineers.
-    Currently working at [Your Lab/Company] where we develop cutting-edge robotics solutions.
+    Passionate about building efficient data pipelines and stream processing systems efficient operations.
+    Currently working at IBM.
     """)
     
     # Resume and Contact buttons
@@ -39,10 +39,10 @@ with col1:
     )
     st.write("[📧 Email Me](mailto:your.email@example.com)")
 
-with col2:
+#with col2:
     # Add your profile image (save as 'profile.jpg' in same folder)
-    image = Image.open("profile.jpg")
-    st.image(image, width=250)
+    #image = Image.open("profile.jpg")
+    #st.image(image, width=250)
 
 # --- Tech Stack Section ---
 st.header("🛠️ Tech Stack")
